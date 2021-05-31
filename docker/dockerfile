@@ -1,6 +1,5 @@
 FROM ubuntu:20.04
 
-# URL: https://stackoverflow.com/questions/60756815/configuration-php-dockerfile-from-ubuntu-image
 RUN apt-get update
 RUN apt-get -y install software-properties-common
 RUN add-apt-repository ppa:ondrej/php
